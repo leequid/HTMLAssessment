@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML-Assessment</title>
+  </head>
+  <body>
+    <h1>TEXT</h1>
+    <p><b>Lorem</b> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <blockquote><p><strong><i>Lorem</i></strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></blockquote>
+
+    <p><b>Lorem</b> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h1>TABLE</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="font-weight:normal" colspan="7">Scores by quarter</th>
+        </tr>
+        <tr>
+          <th colspan="2" rowspan="2">Team Name</th>
+          <th colspan="2">First Half</th>
+          <th colspan="2">Second Half</th>
+          <th rowspan="2">Final</th>
+        </tr>
+        <th>Q1</th>
+        <th>Q2</th>
+        <th>Q3</th>
+        <th>Q4</th>
+        <tr>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td colspan="2">Denver</td>
+          <td>7</td>
+          <td>3</td>
+          <td>0</td>
+          <td>7</td>
+          <td>17</td>
+        </tr>
+        <tr>
+          <td colspan="2">Chicago</td>
+          <td>0</td>
+          <td>6</td>
+          <td>3</td>
+          <td>6</td>
+          <td>15</td>
+        </tr>
+        <tr style="font-weight:bold" align="center">
+          <td colspan="2">Total</td>
+          <td>7</td>
+          <td>9</td>
+          <td>3</td>
+          <td>13</td>
+          <td>32</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+
+    <h1>LIST</h1>
+    <list>
+      <ul>
+        <li>
+          <img style="width: 100px; height: 100px;" src="denver_broncos.png"><br>
+          <a href="http://www.denverbroncos.com/">Denver Broncos</a>
+        </li>
+        <ul style="list-style-type: circle;">
+          <li>Coach: Gary Kubiak</li>
+          <li>QB</li>
+          <ol>
+            <li>Brock Osweiler</li>
+            <li>Trevor Siemian</li>
+            <li>Peyton Manning (injured)</li>
+          </ol>
+        </ul>
+        <li>
+          <img style="width: 100px; height: 100px;" src="chicago_bears.png"><br>
+          <a href="http://www.chicagobears.com//">Chicago Bears</a>
+        </li>
+        <ul style="list-style-type: circle;">
+          <li>Coach: John Fox</li>
+          <li>QB</li>
+          <ol>
+            <li>Jay Cutler</li>
+            <li>David Foles</li>
+          </ol>
+        </ul>
+
+      </ul>
+    </list>
+
+    <h1>FORM</h1>
+    <form>
+      <fieldset>
+  First name:
+  <input type="text" name="firstname">
+  Last name:
+  <input type="text" name="lastname"><br>
+</fieldset><br>
+
+  <fieldset>
+  Favorite Sport:<br>
+  <select name="Sports">
+  <option value="Soccer">Soccer</option>
+  <option value="Football">Football</option>
+  <option value="Swim">Swim</option>
+  <option value="Track">Track</option>
+  <option value="Ski">Ski</option>
+</select>  </fieldset> <br>
+  <fieldset>
+I have:
+<input type="checkbox" name="Experience" value="Attended"> Attended
+<input type="checkbox" name="Experience" value="Played"> Played
+<input type="checkbox" name="Experience" value="Coached"> Coached
+<input type="checkbox" name="Experience" value="Bet on"> Bet on <br>
+this sport.   </fieldset><br>
+    <fieldset>For this sport I prefer the:
+  <input type="radio" name="league" value="Amateur"> Amageur
+<input type="radio" name="league" value="College"> College
+<input type="radio" name="league" value="Professional"> Professional<br>
+ </fieldset><br>
+ <input type="submit" value="Submit Query">
+</form>
+  </body>
+</html>
